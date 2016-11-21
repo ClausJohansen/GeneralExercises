@@ -45,6 +45,31 @@ namespace GeneralExercises
             }
 
             Console.WriteLine();
+
+            // Lav en generic liste af strings. Udskriv alle elementer.
+
+            List<int> intList = new List<int> { 23, 2, 87, 9000 };
+
+            foreach(int number in intList)
+            {
+                Console.Write(number + " ");
+            }
+
+            Console.WriteLine();
+
+
+            // Lav en generic liste af ints. Udskriv alle elementer.
+
+            List<string> stringList = new List<string> { "Ged", "Dobbeltdækker", "Syngende", "Bly" };
+
+            foreach (string word in stringList)
+            {
+                Console.Write(word + " ");
+            }
+
+            Console.WriteLine();
+
+
             Console.ReadKey();
         }
     }
